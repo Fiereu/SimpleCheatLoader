@@ -58,7 +58,6 @@ public:
 	DWORD addSection(IMAGE_SECTION_HEADER sectionHeader, BYTE* sectionData, DWORD size);
 	BYTE* getBytes();
 	DWORD addData(BYTE* data, DWORD size);
-	bool runPE();
 	const char* getPath();
 	void PrintInfo();
 private:
